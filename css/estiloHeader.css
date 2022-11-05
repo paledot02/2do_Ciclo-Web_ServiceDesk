@@ -1,0 +1,45 @@
+@charset "utf-8";
+@import url(estiloMain.css);
+@import url(estiloFormulario.css);
+@import url(estiloFooter.css);
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+/*-HEADER-*/
+.header {
+    margin: 0 25px;
+    padding: 7px 0;
+    display: flex;
+    justify-content: space-between;
+}
+header img{
+    margin: 10px;
+    width: 200px;
+    transition: 1s;
+    transform: scale(1);
+}
+header li{
+    list-style: none;
+}
+header a{
+    text-decoration: none;
+    color:#122731;
+    font-family: bahnschrift;
+    padding: 5px 12px;
+}
+header ul{
+    display: flex;
+}
+header ul a:hover {
+    background-color: chocolate;
+    color: white;
+    border-radius: 4px;
+}
+.fecha{
+    text-align: end;
+    margin-right: 30px;
+}
+
+

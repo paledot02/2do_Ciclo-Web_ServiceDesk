@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bienvenido</title>
+    <link rel="stylesheet" href="../css/estiloHeader.css">
+    <link rel="stylesheet" href="../css/estiloBienvenido.css">
+</head>
+<body>
+    <header class="headerBienvenido">
+        <div class="header">
+            <div>
+             <a href="Service Desk.html"><img src="../imagenes/logo.png" alt="logo"></a>
+            </div>
+            <div>
+                <ul>
+                    <li><a href="#">Quienes somos</a></li>
+                    <li><a href="#">Nuestros Clientes</a></li>
+                    <li><a href="#">Contactenos</a></li>
+                    <li><a href="paginas/Iniciar sesión.html">Iniciar sesión</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="bienvenido">
+            <div class="boxBienv">
+                <h1>Bienvenido</h1>
+            </div>
+            <div class="boxUser">
+                <img src="../imagenes/usuario.png" alt="usuario">
+                <div>
+                    <h2>Nombre del Usuario</h2>
+                    <a href="#">Cerrar Sesion</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="primCaja">
+            <ul>
+                <li><a href="#">Tickets</a>
+                    <ul>
+                        <li><a href="#">Registrar ticket</a></li>
+                        <li><a href="#">Consultar ticket</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Indicadores</a>
+                    <ul>
+                        <li>
+                            <a href="#">Indicador 1</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            
+        </div>
+        <div class="segCaja">
+            <h1>Registrar Ticket</h2>
+            <form class="formulario">
+                <div>
+                    <label for="name">Nombre Completo:</label>
+                    <input type="text" id="name"><br>
+                </div>
+                <div>
+                    <label for="Dni">Dni</label>
+                    <input type="number" id="Dni"><br>
+                </div>
+                <div>
+                    <label for="ruc">Numero de RUC</label>
+                    <input type="number" id="ruc"><br>
+                </div>
+                <div>
+                    <label for="Atencion">Tipo de atención</label>
+                    <select name="Atencion" id="Atencion">
+                        <option value="Actualizacion de Antivirus">Actualizacion de Antivirus</option>
+                        <option value="nnnnnnnn">nnnnnnn</option>
+                    </select><br>
+                </div>
+                <div>
+                    <label for="numTicket">Nro Ticket</label>
+                    <input type="number" id="numTicket">
+                </div>
+                <div>
+                    <label for="fecha">Fecha de Solicitud</label>
+                    <input type="date" id="fecha" name="fecha"><br>
+                </div>
+                <div>
+                    <label for="estado">Estado</label>
+                    <select name="estado" id="estado">
+                        <option value="Pendiente">Pendiente</option>
+                        <option value="nnnnnnnn">nnnnnnn</option>
+                    </select><br>
+                </div>
+                <div>
+                    <label for="descripcion">Descripción de solicitud</label>
+                    <textarea name="descripcion" id="descripcion" cols="30" rows="6"></textarea><br>
+                </div>
+                <div>
+                    <input type="button" value="Registrar" id="registrar" onclick="Registrar()">
+                </div>
+            </form>
+        </div>
+        
+    </main>
+    <div class="cajaRegistro">
+        <h2>Datos Registrados</h2>
+        <div class="datosRegistrados"></div>
+    </div>
+
+
+</body>
+<script src="../js/codigoBienvenido.js"></script>
+</html>

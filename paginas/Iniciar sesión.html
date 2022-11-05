@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar Sesion</title>
+    <link rel="stylesheet" href="../css/estiloFormulario.css">
+    <link rel="stylesheet" href="../css/estiloLogin.css">
+</head>
+<body>
+    <div>
+        <form class="formulario">
+            <h2>Login</h2><br><br>
+            <div>
+                <img src="../imagenes/user.png" alt="user">
+                <input type="text" placeholder="usuario" autofocus="" id="user">
+            </div>
+            <div>
+                <img src="../imagenes/key.png" alt="password">
+                <input type="password" placeholder="contraseña" id="pass">
+            </div>
+            <div>
+                <input type="button" name="boton" class="button" value="Enviar" onclick="validar()">
+            </div>
+            <div>
+                <p>¿Te olvidaste la contraseña?</p><a href="#">Ayuda</a>
+            </div>
+            <div class="respuestaFormulario"></div>
+        </form>
+    </div>
+
+</body>
+<script src="../js/codigoLogin.js"></script>
+</html>

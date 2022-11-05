@@ -1,0 +1,32 @@
+.formulario{
+    width: 600px;
+    margin: 0 auto 50px;
+}
+.formulario div{
+    display: flex;
+    /*justify-content: center;*/
+    margin-bottom: 10px;
+}
+.formulario label{
+    width: 160px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 22px;
+}
+.formulario input, textarea, select{
+    width: 440px;
+    padding: 3px 10px;
+    font-size: 20px;
+}
+.formulario .button{
+    width: 200px;
+    margin: 10px auto;
+    cursor: pointer;
+}
+.respuestaFormulario{
+    font-family: sans-serif;
+    padding: 10px;
+    font-size: 18px;
+    background-color: rgb(238, 233, 161);
+}
+
+
